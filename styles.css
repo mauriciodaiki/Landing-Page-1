@@ -143,3 +143,14 @@ h5 {
     border: 2px solid white;
     border-radius: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.footer span {
+    color: #F9FAF8
+}
