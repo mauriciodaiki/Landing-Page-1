@@ -41,16 +41,16 @@ a {
 .titlesub {
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 444px;
+    max-width: 333px;
 }
 
 .headerbody {
     display: flex;
-    margin: 100px;
+    padding: 100px;
     justify-content: space-around;
 }
 
-img {
+.hbright img {
     max-height: 125px;
 }
 
@@ -59,4 +59,21 @@ button {
     color: white;
     padding: 5px 15px;
     border-radius: 8px;
+    border: none;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.boxes img {
+    max-height: 150px;
 }
