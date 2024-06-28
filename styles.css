@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header {
@@ -11,15 +12,51 @@
 .headertop {
     display: flex;
     justify-content: space-between;
+    margin: 0 100px;
+    padding: 10px 0;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 ul {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.titlesub {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 444px;
+}
+
+.headerbody {
+    display: flex;
+    margin: 100px;
+    justify-content: space-around;
+}
+
+img {
+    max-height: 125px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
 }
