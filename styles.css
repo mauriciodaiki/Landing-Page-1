@@ -12,7 +12,7 @@
 .headertop {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 0 150px;
     padding: 10px 0 0 0;
 }
 
@@ -58,7 +58,7 @@ a {
     max-height: 125px;
 }
 
-button {
+.headerbody button {
     background-color: #3882F6;
     color: white;
     padding: 5px 15px;
@@ -111,4 +111,35 @@ span {
     font-size: 24px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.section4 {
+    padding: 100px 150px;
+}
+
+.call-action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    border-radius: 15px;
+}
+
+h5 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-action span {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.call-action button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
